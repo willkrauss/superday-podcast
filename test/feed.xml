@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Superday</title>
+    <link>https://willkrauss.github.io/superday-podcast/test/</link>
+    <atom:link href="https://willkrauss.github.io/superday-podcast/test/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Financial news at interview depth. A five-minute morning briefing on markets, deals and the economy, read from the Superday newsletter.</description>
+    <language>en-us</language>
+    <itunes:author>Superday</itunes:author>
+    
+    <itunes:image href="https://willkrauss.github.io/superday-podcast/test/cover.png"/>
+    <itunes:category text="Business"><itunes:category text="Investing"/></itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <item>
+      <title>#31: Investors stop trusting AI spending</title>
+      <description><![CDATA[<p>Superday for Thursday, October 22, 2026: Investors stop trusting AI spending.</p><p>Financial news at interview depth. Figures may be revised. Not investment advice.</p>]]></description>
+      <link>https://willkrauss.github.io/superday-podcast/test/#ep-31</link>
+      <guid isPermaLink="false">superday-031</guid>
+      <pubDate>Thu, 22 Oct 2026 11:30:00 +0000</pubDate>
+      <enclosure url="https://github.com/willkrauss/superday-podcast/releases/download/test-ep-031/superday-031.mp3" length="4799458" type="audio/mpeg"/>
+      <itunes:duration>00:04:58</itunes:duration>
+      <itunes:episode>31</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
