@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+<title>Reelwright</title>
+<meta name="description" content="Screenwriting and pre-production for film, TV, stage, audio drama, comics and video. Works offline; your scripts stay on your device.">
+<meta name="theme-color" content="#2753c4">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Reelwright">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preload" href="fonts/CourierPrime-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/app.css">
+<script>
+  // Apply the saved theme before first paint.
+  try { const t = JSON.parse(localStorage.getItem('rw.prefs') || '{}').theme; if (t && t !== 'system') document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+</head>
+<body>
+<div id="app" class="app"><div class="empty" style="padding-top:20vh">Loading…</div></div>
+<noscript><p style="padding:24px">Reelwright needs JavaScript to run.</p></noscript>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
